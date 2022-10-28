@@ -11,17 +11,17 @@ body {
 #container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   background-color: #16a085;
 }
 
 .row {
   display: flex;
-  gap: 10px;
 }
 
 .cell {
-  width: 50px;
-  height: 50px;
   background-color: orange;
+}
+
+.hoveredCell {
+  background-color: #d35400;
 }
