@@ -1,17 +1,23 @@
 body {
   box-sizing: border-box;
+  margin: 0;
+}
+
+#mainPanel {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
   background-color: #16a085;
+  gap: 50px;
 }
 
 #container {
   display: flex;
   flex-direction: column;
   background-color: #16a085;
+  width: 960px;
+  height: 960px;
 }
 
 .row {
